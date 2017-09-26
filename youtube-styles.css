@@ -1,0 +1,109 @@
+.container{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+
+}
+
+.header{
+
+}
+
+.gray{
+  color: #828282;
+}
+
+.search-area{
+  padding-top: 20px;
+}
+
+.btn-danger{
+  background-color: #fe021c;
+  border color: #fe021c;
+}
+
+h4 {
+  display: inline;
+}
+
+.broadcast{
+  display: block;
+  bottom: 0px;
+}
+
+.border-border{
+  border-bottom: solid 1px black;
+  padding-top: 10px;
+}
+
+.account-sec{
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.black{
+  color: black;
+}
+
+.hvc{
+  padding-top: 5px;
+}
+
+.shu{
+  padding-top: 10px;
+}
+
+img {
+  display: inline-block;
+}
+.video-text{
+  display: inline-block;
+  text-overflow: ellipsis;
+}
+.video-thumb{
+  margin-top: 20px;
+}
+.featured{
+  background-color: #cccccc;
+  border: solid 2px black;
+}
+.popup{
+  border: solid 2px black;
+}
+
+.scott-row{
+  padding-top: 30px;
+
+}
+
+.bottom-row{
+  border: 1px solid black;
+  background-color: whitesmoke;
+  font-size: small;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.well{
+  border: none;
+  box-shadow: none;
+}
+
+.each-text{
+  color: darkgray;
+  float: right;
+}
+
+.each-video{
+  padding: 0px;
+  float: left;
+}
+
+.featured-topp{
+  margin-top: 10px;
+}
+
+.video-start{
+  margin-top: 18px;
+}

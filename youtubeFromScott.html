@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta charset="utf-8">
+
+    <!--  This is OUR CSS Style sheet that overrideds Bootstrap if necessary -->
+    <style media="screen">
+      .container{
+        margin-top: 20px;
+      }
+      img {
+        display: inline-block;
+      }
+      .video-text{
+        display: inline-block;
+        text-overflow: ellipsis;
+      }
+      .video-thumb{
+        margin-top: 20px;
+      }
+      .featured{
+        background-color: #cccccc;
+        border: solid 2px black;
+      }
+      .popup{
+        border: solid 2px black;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles1.css">
+
+    <title>Middle Section</title>
+  </head>
+  <body>
+    <!--  Using container creates a gutter on either side  -->
+    <div class="container">
+      <div class="row">
+        <div class="featured col-md-8">
+          <strong>Featured</strong>
+          <div class="video-thumb col-md-7 text-left">
+            <img src="img/game.png" class="img-responsive">
+          </div>
+          <div class="col-md-5">
+            <div class="col-md-4">
+              <img src="img/submarine.png" class="img-responsive">
+            </div>
+            <div class="col-md-8">
+              <div class="video-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="img/game.png" class="img-responsive">
+            </div>
+            <div class="col-md-8">
+              <div class="video-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="img/cake.png" class="img-responsive">
+            </div>
+            <div class="col-md-8">
+              <div class="video-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+          </div>   <!-- For Repeating -->
+        </div>
+        <div class="col-md-4">
+          <img src="img/safe.png" class="popup img-responsive">
+          <div class="video-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      </div>  <!-- Row -->
+   </div>    <!-- container -->
+  </body>
+</html>
